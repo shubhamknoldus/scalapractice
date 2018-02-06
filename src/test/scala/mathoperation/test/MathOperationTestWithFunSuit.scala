@@ -19,6 +19,6 @@ class MathOperationTestWithFunSuit extends FunSuite {
     assert(mathOperationObj.divide(23, 2) == 11)
   }
   test("divide by zero") {
-    assertThrows[ArithmeticException] (mathOperationObj.divide(23, 0))
+    assertThrows[ArithmeticException](mathOperationObj.divide(23, 0))
   }
 }
